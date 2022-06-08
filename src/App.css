@@ -1,0 +1,39 @@
+.navbar-bg-container{
+  background-color: rgb(230, 230, 230);
+}
+.logo-image{
+  width: 30%;
+}
+.bg-container{
+  background-color: rgb(238, 244, 246);
+}
+.input-text-fields{
+  background-color: rgb(233, 233, 133);
+}
+::placeholder{
+  color: black;
+}
+.pizza-image{
+  width: 200px;
+  height: 200px;
+}
+.cart-images{
+  width: 100px;
+}
+.borders,.header-borders{
+  border-bottom: 1px solid grey;
+}
+.header-borders{
+  padding-bottom: 20px;
+}
+.notify-para{
+  background-color: rgb(201, 238, 201);
+  color: green;
+}
+
+@media screen and (max-width:992px) {
+  .pizza-image{
+    width: 150px;
+    height: 150px;
+  }
+}
